@@ -10,6 +10,13 @@ table{
 th{
     font-size: 90px;
     color: rgb(155, 7, 7);
+    transition-duration: 250ms;
+    background-color: white;
+}
+th:hover{
+    font-size: 150px;
+    color: rgb(233, 16, 16);
+    background: radial-gradient(circle, rgba(167,167,167,1) 0%, rgba(255,255,255,0) 100%);
 }
 button{
     height: 5pc;
