@@ -9,6 +9,7 @@ $(document).ready(function(){
     $("#ad").click(function(){
         var item;
         var name;
+        
         shuffle(days);
     
         console.log(days);
@@ -16,7 +17,9 @@ $(document).ready(function(){
         for (var i = 0; i < 24; i++){
             name = "#a" + String(i + 1);
             item = String(days[i]);
+            
             console.log(name);
+            
             $(name).text(item);
         }
     });
