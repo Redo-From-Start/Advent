@@ -2,20 +2,24 @@
     padding: 0;
     margin: 0;
 }
+
 table{
     height: 50%;
     width: 50%;
     right: 50%;
 }
+
 th{
     font-size: 90px;
     color: rgb(155, 7, 7);
     transition-duration: 250ms;
     background-color: white;
 }
+
 th:hover{
     color: rgb(233, 16, 16);
 }
+
 button{
     height: 5pc;
     width: 10pc;
@@ -24,6 +28,7 @@ button{
     position: absolute;
     left: 25%;
 }
+
 button:hover{
     height: 6pc;
     width: 11pc;
