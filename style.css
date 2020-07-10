@@ -17,7 +17,7 @@ th{
 }
 
 th:hover{
-    color: rgb(64, 64, 64);
+    color: rgb(128, 128, 128);
 }
 
 button{
@@ -27,9 +27,4 @@ button{
     transition-duration: 500ms;
     position: absolute;
     left: 25%;
-}
-
-button:hover{
-    height: 6pc;
-    width: 11pc;
 }
