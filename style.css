@@ -11,13 +11,13 @@ table{
 
 th{
     font-size: 90px;
-    color: rgb(155, 7, 7);
+    color: rgb(0, 0, 0);
     transition-duration: 250ms;
     background-color: white;
 }
 
 th:hover{
-    color: rgb(233, 16, 16);
+    color: rgb(64, 64, 64);
 }
 
 button{
